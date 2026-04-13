@@ -9,23 +9,13 @@ body {
 header {
     text-align: center;
     padding: 40px;
+    background: black;
     border-bottom: 2px solid #00ff00;
 }
 
 header h1 {
     color: #00ff00;
-}
-
-/* Button */
-.btn {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    color: black;
-    background: #00ff00;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
+    letter-spacing: 2px;
 }
 
 /* Navigation */
@@ -38,6 +28,11 @@ nav a {
     margin: 0 15px;
     color: #00ff00;
     text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 /* Sections */
@@ -53,6 +48,7 @@ section {
     padding: 20px;
     margin-top: 15px;
     border-left: 4px solid #00ff00;
+    border-radius: 5px;
 }
 
 /* Footer */
@@ -60,4 +56,5 @@ footer {
     text-align: center;
     padding: 20px;
     border-top: 1px solid #00ff00;
+    margin-top: 40px;
 }
