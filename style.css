@@ -2,6 +2,19 @@ body {
     background-color: black;
     color: #00ff00;
     font-family: monospace;
+}
+
+.container {
     text-align: center;
-    margin-top: 100px;
+    padding: 50px;
+}
+
+nav a {
+    margin: 10px;
+    color: #00ff00;
+    text-decoration: none;
+}
+
+section {
+    margin-top: 40px;
 }
