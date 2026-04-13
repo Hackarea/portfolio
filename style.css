@@ -1,20 +1,60 @@
 body {
-    background-color: black;
-    color: #00ff00;
-    font-family: monospace;
+    background-color: #0a0a0a;
+    color: #e0ffe0;
+    font-family: Arial, sans-serif;
+    margin: 0;
 }
 
-.container {
+/* Header */
+header {
     text-align: center;
-    padding: 50px;
+    padding: 40px;
+    background: black;
+    border-bottom: 2px solid #00ff00;
+}
+
+header h1 {
+    color: #00ff00;
+    letter-spacing: 2px;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    padding: 15px;
 }
 
 nav a {
-    margin: 10px;
+    margin: 0 15px;
     color: #00ff00;
     text-decoration: none;
+    font-weight: bold;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
 section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Cards */
+.card {
+    background: #111;
+    padding: 20px;
+    margin-top: 15px;
+    border-left: 4px solid #00ff00;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #00ff00;
     margin-top: 40px;
 }
